@@ -2,7 +2,7 @@ import React from "react";
 export default function NfdLogo() {
   return (
     <>
-      <div className="NfdLogo" style={{ "margin-right": "20%" }}>
+      <div className="NfdLogo" style={{ "margin-right": "18%" }}>
         <svg
           width="56"
           height="43"

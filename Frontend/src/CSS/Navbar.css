@@ -6,3 +6,17 @@
     height: 75px;
     padding: 0px 1.79%;
 }
+
+.NavbarDiv{
+    display: block;
+    width: 46.5% !important;
+}
+
+.NavbarDiv li{
+    margin-right: 5%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-nav{
+    margin-right: auto !important;
+}
