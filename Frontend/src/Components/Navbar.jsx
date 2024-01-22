@@ -1,6 +1,8 @@
 import React from "react";
 import "../CSS/navbar.css";
 import NfdLogo from "./NavbarComponents/NfdLogo";
+import { FaDiscord, FaTwitter } from "react-icons/fa";
+
 export default function Navbar() {
   return (
     <>
@@ -55,6 +57,14 @@ export default function Navbar() {
                 </a>
               </li>
             </ul>
+            <div className="NavbarLinkIcons 	.d-none .d-lg-block .d-xl-none">
+              <a href="https://twitter.com/NFD_gg" target="_blanck">
+                <FaDiscord color="#6C52EE" className="Discord NavImage" />
+              </a>
+              <a href="https://twitter.com/NFD_gg" target="_blanck">
+                <FaTwitter color="#6C52EE" className="Twitter NavImage" />
+              </a>
+            </div>
           </div>
         </div>
       </nav>
